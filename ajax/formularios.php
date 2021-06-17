@@ -8,7 +8,7 @@
         $corpo.="<hr>";
     }
     $info = array("assunto"=>$assunto,"corpo"=>$corpo);
-    $mail = new Email('smtp.gmail.com','testeselitexsites@gmail.com','27TH7djRC97ZWBJ','Victor');
+    $mail = new Email('smtp.gmail.com','******@gmail.com','****','Victor');
     $mail->addAdress('rainbowsixxfzk@gmail.com','Victor');
     $mail->formatarEmail($info);
     if($mail->enviarEmail()) {
